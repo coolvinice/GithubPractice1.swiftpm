@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import SwiftUI
+struct Task:Hashable{
+    var nameOfTask:String
+}
+// added new thing
