@@ -19,7 +19,8 @@ struct HeaderView: View {
             } label: {
                 Text("Add to List")
                     .padding()
-                    .background(RoundedRectangle(cornerRadius: 25))
+                    .foregroundColor(.white)
+                    .background(RoundedRectangle(cornerRadius: 10))
             }
         }
     }
